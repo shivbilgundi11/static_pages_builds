@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Market</title>
+    <!-- --------CSS-Linking-------- -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- --------Google-Font-Linking-------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- --------Iconscout-CDN-Linking-------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"/>
+</head>
+<body>
+    <!-- --------Nav-Bar-------- -->
+    <nav>
+        <div class="container nav__container">
+            <h1><a href="index.html"><span class="logo">Cl</span>ark Inc</a></h1>
+
+            <ul class="nav__menu">
+                <li><a href="index.html" class="nav__items">Home</a></li>
+                <li><a href="" class="nav__items">Explore</a></li>
+                <li><a href="" class="nav__items">Stats</a></li>
+                <li><a href="#trending_artwork" class="nav__items">Resource</a></li>
+                <li class="sign-up"><a href="" class="nav__items">Sign Up</a></li>
+            </ul>
+            
+            <!-- --------Hamberger-Button-------- -->
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+
+            <button class="btn nav_get_started" role="button"><a href="#">Get Started</a></button>
+        </div>
+    </nav>
+
+
+    <!-- --------Header-Markup-------- -->
+    <header class="container">
+        <div class="header__container">
+            <!-- Header-Left -->
+        <div class="header__left">
+            <div class="header-left__info">
+                <h1 class="main__heading">
+                    Discover <big>rare<i class="uil uil-fire"></i></big><br>artworks by world<br>class artist
+                </h1>
+
+                <p class="sub_lines">
+                    The most trusted platform to buy,sells, <br>andauction an artwork
+                </p>
+
+                <button class="btn" role="button"><a href="#" class="text">Sell artwork</a></button>
+                <button class="btn btn2" role="button"><a href="#" class="btn__primary">Explore</a></button>
+            </div>
+        </div>
+
+        <!-- Header-Right -->
+        <div class="header__right">
+            <!-- Card-1 -->
+            <div class="card__container card1">
+                <div class="card__info">
+                    <small><img src="images/ava10.jpg" alt="" class="avatar"></small>
+                    <p>Sci-Fi Tech<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="price">15,900.18 TRX</small></p>
+                </div>
+            </div>
+
+            <!-- Card-2 -->
+            <div class="card__container card2">
+                <div class="card__info">
+                    <small><img src="images/ava12.jpg" alt="" class="avatar"></small>
+                    <p>Azuki<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="price">10,000.98 ETH</small></p>
+                </div>
+            </div>
+
+            <!-- Card-3 -->
+            <div class="card__container card3">
+                <div class="card__info">
+                    <small><img src="images/ava-01.png" alt="" class="avatar"></small>
+                    <p>Doodles<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="price">17,000.98 XRP</small></p>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+    </header>
+
+    <!-- --------Brands-Logo-Markup-------- -->
+    <section class="brands">
+        <div class="brands__container container">
+            <div class="brands__logo"><img src="images/binance.png" alt="brands img"></div>
+            <div class="brands__logo"><img src="images/coinbase.png" alt="brands img"></div>
+            <div class="brands__logo"><img src="images/logoipsum.png" alt="brands img"></div>
+            <div class="brands__logo"><img src="images/nft_showroom.png" alt="brands img"></div>
+        </div>
+    </section>
+
+    <!-- --------Popular-Artists-Markup-------- -->
+    <section class="popular__container">
+        <div class="container popular__part1">
+            <div class="popular-info__left">
+                <small>POPULAR</small>
+
+                <h1>This week's most<br>popular artists</h1>
+            </div>
+
+            <div class="popular-info__right">
+                <small></small>
+
+                <p>Open repair of infrarenal aortic aneurysm or<br>dissection.</p>
+                <a href="#" class="btn3">Go to Rankings <i class="uil uil-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------Popular-NFT's-Markup-------- -->
+    <section class="container pnft__section">
+        <div class="grid__container">
+            <!-- Grid-Item-1 -->
+            <div class="grid__item pnft1">
+                <img src="images/nft11.png" alt="">
+                <div class="pnft__info">
+                    <img src="images/ava1.jpeg" alt="" class="avatar">
+                    <p>Soul Monkey<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="price">16,322.98 ETH</small></p>
+                </div>
+            </div>
+    
+    
+            <!-- Grid-Item-2 -->
+            <div class="grid__item pnft2">
+                <img src="images/nft12.jpeg" alt="">
+                <div class="pnft__info">
+                    <small><img src="images/ava8.webp" alt="" class="avatar"></small>
+                    <p>Doodles<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="price">13,452.98 TRX</small></p>
+                </div>
+            </div>
+    
+    
+            <!-- Grid-Item-3 -->
+            <div class="grid__item pnft3">
+                <img src="images/nft19.png" alt="">
+                <div class="pnft__info">
+                    <small><img src="images/ava9.webp" alt="" class="avatar"></small>
+                    <p>Azuki<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="price">24,922.98 ETH</small></p>
+                </div>
+            </div>
+    
+    
+            <!-- Grid-Item-4 -->
+            <div class="grid__item pnft4">
+                <img src="images/nft1.jpg" alt="">
+                <div class="pnft__info">
+                    <small><img src="images/ava1.jpeg" alt="" class="avatar"></small>
+                    <p>Karafuru<br><small class="price">21.98 BTC</small></p>
+                </div>
+            </div>
+    
+    
+            <!-- Grid-Item-5 -->
+            <div class="grid__item pnft5">
+                <img src="images/nft31.jpg" alt="">
+                <div class="pnft__info">
+                    <small><img src="images/ava6.png" alt="" class="avatar"></small>
+                    <p>Catblox Genesis<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="price">15,625.32 TRX</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------NFT's-Trade-Markup-------- -->
+    <section class="trade__section">
+        <h2>Create and sell your NFT</h2>
+        
+        <!-- Steps-Trade -->
+        <div class="container trade__steps">
+
+            <!-- step-1 -->
+            <div class="trade__step">
+                <i class="uil uil-scenery"></i>
+                <h4>Create your artwork</h4>
+                <p>Open repair of infrarenal aortic aneurysm or dissection.</p>
+            </div>
+
+            <!-- step-2 -->
+            <div class="trade__step">
+                <i class="uil uil-file-upload"></i>
+                <h4>Upload your NFT</h4>
+                <p>Open repair of infrarenal aortic aneurysm or dissection.</p>
+            </div>
+
+            <!-- step-3 -->
+            <div class="trade__step">
+                <i class="uil uil-analytics"></i>
+                <h4>List your scale</h4>
+                <p>Open repair of infrarenal aortic aneurysm or dissection.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- --------Trending-Artworks-Markup-------- -->
+    <section class="popular__container">
+        <div class="container popular__part1">
+            <div class="popular-info__left">
+                <small>POPULAR</small>
+
+                <h1>Trending <big>artwork <i class="uil uil-angle-down"></i></big><br>collection</h1>
+            </div>
+
+            <div class="popular-info__right">
+                <small></small>
+
+                <p>Open repair of infrarenal aortic aneurysm or<br>dissection.</p>
+                <a href="#" class="btn3">Explore collections <i class="uil uil-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------Trending-Artworks-Cards------------ -->
+    
+    <!-- Swiper -->
+    <div class="container trending__section" id="trending_artwork">
+
+        <div class="card__grid__container">
+
+
+            <!-- ----Card-1---- -->
+            <article class="artworks artwork-1">
+
+                <div class="artwork__price">
+                    <p>2.0 ETH</p>
+                </div>
+
+                <div class="artwork__profile">
+                    <img src="images/ava-01.png" alt="" class="profile">
+                    <p>Catblox Genesis<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="group__info">Night Club #19</small></p>
+                </div>
+
+            </article>
+
+
+            <!-- ----Card-2---- -->
+            <article class="artworks artwork-2">
+
+                <div class="artwork__price">
+                    <p>3.0 ETH</p>
+                </div>
+                
+                <div class="artwork__profile">
+                    <img src="images/ava-02.png" alt="" class="profile">
+                    <p>Doodles<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="group__info">Kings NFT #9858</small></p>
+                </div>
+
+            </article>
+
+
+            <!-- ----Card-3---- -->
+            <article class="artworks artwork-3">
+
+                <div class="artwork__price">
+                    <p>2.0 ETH</p>
+                </div>
+
+                <div class="artwork__profile">
+                    <img src="images/ava-03.png" alt="" class="profile">
+                    <p>Arcade Lands<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="group__info">Crypto Club #1895</small></p>
+                </div>
+            </article>
+
+            
+            <!-- ----Card-4---- -->
+            <article class="artworks artwork-4">
+
+                <div class="artwork__price">
+                    <p>2.5 ETH</p>
+                </div>
+
+                <div class="artwork__profile">
+                    <img src="images/ava-04.png" alt="" class="profile">
+                    <p>CyberBrokers<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="group__info">Cyber Club #956</small></p>
+                </div>
+            </article>
+
+            
+            <!-- ----Card-5---- -->
+            <article class="artworks artwork-5">
+
+                <div class="artwork__price">
+                    <p>7.0 ETH</p>
+                </div>
+
+                <div class="artwork__profile">
+                    <img src="images/ava-05.png" alt="" class="profile">
+                    <p>Crypto Punks<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="group__info">Gh0stly Gh0sts #122</small></p>
+                </div>
+            </article>
+
+            
+            <!-- ----Card-6---- -->
+            <article class="artworks artwork-6">
+
+                <div class="artwork__price">
+                    <p>5.0 ETH</p>
+                </div>
+
+                <div class="artwork__profile">
+                    <img src="images/ava-06.png" alt="" class="profile">
+                    <p>Averai Heroes<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="group__info">Night Heroes #148</small></p>
+                </div>
+            </article>
+
+            
+            <!-- ----Card-7---- -->
+            <article class="artworks artwork-7">
+
+                <div class="artwork__price">
+                    <p>1.9 ETH</p>
+                </div>
+
+                <div class="artwork__profile">
+                    <img src="images/ava1.jpeg" alt="" class="profile">
+                    <p>Akuma Origins<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="group__info">Clone X #654</small></p>
+                </div>
+            </article>
+
+            
+            <!-- ----Card-8---- -->
+            <article class="artworks artwork-8">
+
+                <div class="artwork__price">
+                    <p>6.5 ETH</p>
+                </div>
+
+                <div class="artwork__profile">
+                    <img src="images/ava-05.png" alt="" class="profile">
+                    <p>KIWAMI Genesis<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="group__info">Mutant Origins #145</small></p>
+                </div>
+            </article>
+
+
+            <!-- ----Card-9---- -->
+            <article class="artworks artwork-9">
+
+                <div class="artwork__price">
+                    <p>8.2 ETH</p>
+                </div>
+
+                <div class="artwork__profile">
+                    <img src="images/ava3.png" alt="" class="profile">
+                    <p>Bored Ape<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="group__info">Forsekens #598</small></p>
+                </div>
+            </article>
+
+            
+            <!-- ----Card-10---- -->
+            <article class="artworks artwork-10">
+
+                <div class="artwork__price">
+                    <p>4.0 ETH</p>
+                </div>
+
+                <div class="artwork__profile">
+                    <img src="images/ava-04.png" alt="" class="profile">
+                    <p>Shinsekai Portal<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="group__info">Apes Club #486</small></p>
+                </div>
+            </article>
+
+
+            <!-- ----Card-11---- -->
+            <article class="artworks artwork-11">
+
+                <div class="artwork__price">
+                    <p>3.25 ETH</p>
+                </div>
+
+                <div class="artwork__profile">
+                    <img src="images/ava11.png" alt="" class="profile">
+                    <p>Shinsekai<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="group__info">Kings Club #431</small></p>
+                </div>
+            </article>
+
+
+            <!-- ----Card-12---- -->
+            <article class="artworks artwork-12">
+
+                <div class="artwork__price">
+                    <p>3.2 ETH</p>
+                </div>
+
+                <div class="artwork__profile">
+                    <img src="images/ava12.jpg" alt="" class="profile">
+                    <p>Doodles<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="group__info">Azuki Club #486</small></p>
+                </div>
+            </article>
+
+        </div>
+      </div>
+
+
+      <!-- --------Join-Discord-Markup-------- -->
+      <section class="discord__section">
+        <div class="container discord__container">
+
+
+        <!-- Header-Right -->
+        <div class="discord__right">
+            <!-- Card-1 -->
+            <div class="cards__box cards1">
+                <div class="card__info">
+                    <small><img src="images/ava10.jpg" alt="" class="avatar"></small>
+                    <p>Sci-Fi Tech<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="price">15,900.18 TRX</small></p>
+                </div>
+            </div>
+
+            <!-- Card-2 -->
+            <div class="cards__box cards2">
+                <div class="card__info">
+                    <small><img src="images/ava12.jpg" alt="" class="avatar"></small>
+                    <p>Azuki<img src="images/instagrampng1.png" alt="" class="bluetick"><br><small class="price">10,000.98 ETH</small></p>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <!-- Section-Left -->
+        <div class="discord__left">
+            <div class="discord-right__info">
+                <h1 class="main__heading">
+                    Get notified of the<br>best drop
+                </h1>
+
+                <p class="sub__lines">
+                    Lorem ipsum dolor sit amet consectetur adipisicing<br> elit.Tenetur, itaque quod perspiciatis<br> assumenda modi delectus?
+                </p>
+
+                <button class="btn" role="button"><a href="https://www.discord.com" class="text" target="_blank">Join our discord</a></button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- ------------Footer-Section-Markup------------ -->
+    <footer>
+        <div class="container footer__container">
+
+            <div class="footer__top">
+
+                <div class="footer__column1 footer__column">
+                    <h1><a href="index.html"><span class="site__logo">Cl</span>ark lnc</a></h1>
+    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Voluptatum, nisi?</p>
+    
+                    <a href="mailto:clarklnc@example.com" class="site__mail" target="_blank"><i class="uil uil-envelope"></i> clarklnc@example.com</a>
+                </div>
+    
+                <div class="footer__column2 footer__column">
+                    <h4>What we do</h4>
+    
+                    <a href="index.html">Home</a>
+                    <a href="#">How it works</a>
+                    <a href="#">Features</a>
+                    <a href="#">Our products</a>
+    
+                </div>
+    
+                <div class="footer__column3 footer__column">
+                    <h4>Who we are</h4>
+    
+                    <a href="#">About Us</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Insight</a>
+                    <a href="#">Help</a>
+    
+                </div>
+    
+                <div class="footer__column4 footer__column">
+                    <h4>Marketplace</h4>
+    
+                    <a href="#">All collection</a>
+                    <a href="#">Music</a>
+                    <a href="#">Art</a>
+                    <a href="#">Photography</a>
+                    <a href="#">Domain names</a>
+                    <a href="#">Sport</a>
+                    <a href="#">See All</a>
+    
+                </div>
+    
+                <div class="footer__column4 footer__column">
+                    <h4>Follow us</h4>
+    
+                    <a href="#">Dribble</a>
+                    <a href="#"><i class="uil uil-instagram"></i></a>
+                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                    <a href="#"><i class="uil uil-behance"></i></a>
+                    <a href="#"><i class="uil uil-twitter-alt"></i></a>
+    
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright__part">
+            <div class="footer__bottom container">
+                <p>Copyright <i class="uil uil-copyright"></i> 2022. Clark lnc All Right Reserved.</p>
+
+                <div class="conditions">
+                    <a href="#">Terms of Services</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+      
+
+
+    <script src="main.js"></script>
+</body>
+</html>
