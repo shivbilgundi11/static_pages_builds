@@ -9,3 +9,5 @@
 02. NFT_Website_Design https://shivbilgundi11.github.io/static_pages_builds/NFT_Website_Design/index.html
 
 03. Multi_Page_Edu_Website https://shivbilgundi11.github.io/static_pages_builds/multi-page-edu-website/index.html
+ 
+04. Shopping_Website https://shivbilgundi11.github.io/static_pages_builds/shopping-page/index.html
